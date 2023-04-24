@@ -11,3 +11,4 @@ int main(){
     //bool变量占用的字符
     cout << "bool类型所占的空间" <<sizeof(flag) << endl;
 }
+/*在c语言中使用的bool类型是会转化为0和1的*/

@@ -9,8 +9,8 @@ int main (){
     char str[] = "hello world\n";
     cout << "C语言风格" << str;
     //C++语言风格
-    string str2 = "hello world";
-    cout << "C++语言风格" << str;
+    string str2 = "hello world\n";
+    cout << "C++语言风格" << str2;
 
 
 }
