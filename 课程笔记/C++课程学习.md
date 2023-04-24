@@ -331,7 +331,7 @@ int main (){
     cout << "C语言风格" << str;
     //C++语言风格
     string str2 = "hello world";
-    cout << "C++语言风格" << str;
+    cout << "C++语言风格" << str2;
 }
 ```
 
