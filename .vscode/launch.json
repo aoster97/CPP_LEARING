@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Volumes/prom/C++_learn/vs_code_C++",
-      "program": "/Volumes/prom/C++_learn/vs_code_C++/build/Debug/outDebug"
+      "cwd": "/Volumes/prom/C++_learn/vs_code_C++/code_learn/build",
+      "program": "/Volumes/prom/C++_learn/vs_code_C++/code_learn/build/build/Debug/outDebug"
     }
   ]
 }
