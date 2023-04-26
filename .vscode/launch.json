@@ -1,13 +1,17 @@
 {
-  "version": "0.2.0",
-  "configurations": [
+    "configurations": [
     {
-      "name": "C/C++ Runner: Debug Session",
-      "type": "lldb",
-      "request": "launch",
-      "args": [],
-      "cwd": "/Volumes/prom/C++_learn/vs_code_C++/code_learn/build",
-      "program": "/Volumes/prom/C++_learn/vs_code_C++/code_learn/build/build/Debug/outDebug"
+        "name": "(lldb) 启动",
+        "type": "cppdbg",
+        "request": "launch",
+        "program": "${workspaceFolder}/code_learn/build/${fileBasenameNoExtension}",
+        "args": [],
+        "stopAtEntry": false,
+        "cwd": "${workspaceFolder}/code_learn/build",
+        "environment": [],
+        "externalConsole": true,
+        "MIMode": "lldb",
+        "preLaunchTask": "gcc"
     }
-  ]
+    ]
 }
