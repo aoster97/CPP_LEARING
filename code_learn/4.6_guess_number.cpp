@@ -6,10 +6,15 @@ int main()
     int a;
     int num = rand() % 100 + 1;
     // cout << num << endl;
-    while (a != 9999)
+    while (true)
     {
-        cout << "请输入您猜的数字(输入999结束):" << endl;
+        cout << "请输入您猜的数字(输入9999结束):" << endl;
         cin >> a;
+        if (a == 9999)
+        {
+            break;
+        }
+        
         if (a > num)
         {
             cout << "猜测过大." << endl;
