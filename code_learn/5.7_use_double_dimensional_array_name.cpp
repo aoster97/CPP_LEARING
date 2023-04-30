@@ -21,5 +21,9 @@ int main(){
     cout << "二维数组的内存起始位置:" << arr << endl;
     //cout << "二维数组的内存起始位置:" << (int)&arr[0][0] << endl;
 
+    //打印二维数组第一行的首地址和第二行的首地址
+    cout << "第一行的首地址:" << reinterpret_cast<long int>(arr[0]) << endl;
+    cout << "第二行的首地址:" << reinterpret_cast<long int>(arr[1]) << endl;
+    cout << "不使用reinterpret_cast<long int>的方法试一试:" << (long int)arr[0]  << endl;
     return 0 ;
 }

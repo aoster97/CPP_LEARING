@@ -11,11 +11,11 @@ int main()
 
         for (int b = 0; b < a; b++)
         {
-            if (arr[b + 1] > arr[b])
+            if (arr[b + 1] < arr[b])
             {
-                temp = arr[b + 1];
-                arr[b + 1] = arr[b];
-                arr[b] = temp;
+                temp = arr[b];
+                arr[b] = arr[b + 1];
+                arr[b + 1] = temp;
             }
         }
     }
