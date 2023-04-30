@@ -1,6 +1,7 @@
 {
 	"cpp_create": {
-		"prefix": "c++",
+		"scope": "cpp",
+		"prefix": "cr_n",
 		"body": [
 		  "#include <iostream>",
 		  "using namespace std;",

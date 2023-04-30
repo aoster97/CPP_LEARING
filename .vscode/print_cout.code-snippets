@@ -1,0 +1,11 @@
+{
+
+	"print_to_console": {
+		"scope": "cpp",
+		"prefix": "pp",
+		"body": [
+			"cout << $0 << endl;"
+		],
+		"description": "cout << <<endl"
+	}
+}
