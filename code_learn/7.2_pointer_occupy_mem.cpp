@@ -7,11 +7,13 @@ int main(){
 
     int * p = &a;
     
+    cout << "sizeof (int *)" << sizeof(p) << endl;
     cout << "sizeof (int *)" << sizeof(int *) << endl;
     cout << "sizeof (int *)" << sizeof(float *) << endl;
     cout << "sizeof (int *)" << sizeof(double *) << endl;
     cout << "sizeof (int *)" << sizeof(char * ) << endl;
-    cout << "sizeof (int *)" << sizeof(*p) << endl;
+    cout << "sizeof (int *)" << sizeof(* p) << endl;
+    cout << "sizeof (int *)" << sizeof(10) << endl;
 
     return 0;
 }
