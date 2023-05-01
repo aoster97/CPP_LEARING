@@ -1,0 +1,19 @@
+{
+  "configurations": [
+    {
+      "name": "macos-clang-x64",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "/Volumes/prom/C++_learn/vs_code_C++/code_learn/include"
+      ],
+      "compilerPath": "/usr/bin/clang",
+      "cStandard": "${default}",
+      "cppStandard": "${default}",
+      "intelliSenseMode": "macos-clang-x64",
+      "compilerArgs": [
+        ""
+      ]
+    }
+  ],
+  "version": 4
+}
